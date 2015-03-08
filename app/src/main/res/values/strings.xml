@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ConfData</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Preferencias</string>
+    <string name="title_activity_preferencias">Preferencias</string>
+    
+    <string-array name="generos">
+        <item>Masculino</item>
+        <item>Femenino</item>
+    </string-array>
+    <string-array name="generosAcron">
+        <item>M</item>
+        <item>F</item>
+    </string-array>
+
+</resources>

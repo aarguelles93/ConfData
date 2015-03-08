@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:key="op_nombre"
+        android:title="Ingrese su nombre"
+        android:summary="Nombre que aparecerá en la app"
+        android:dialogTitle="Ingrese su nombre"
+        ></EditTextPreference>
+
+    <EditTextPreference
+        android:key="op_edad"
+        android:title="Ingrese su edad"
+        android:inputType="number"
+        android:summary="Edad que aparecerá en la app"
+        android:dialogTitle="Ingrese su edad"
+        ></EditTextPreference>
+
+
+    <ListPreference
+        android:key="op_genero"
+        android:title="Seleccione su género"
+        android:summary="Seleccion de género"
+        android:entries="@array/generosAcron"
+        android:entryValues="@array/generos">
+    </ListPreference>
+
+</PreferenceScreen>
